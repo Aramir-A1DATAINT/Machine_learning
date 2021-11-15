@@ -49,4 +49,40 @@
 - Bayesian-network model
 - Em algorithms
 
+# Issues in COllaborative Filtering
+- several challenges for collaborative filtering
+> Sparseness
+- recommendation dataest is extensive and algorithms could be vast and sparse 
+- Encounters the probelm of performance
+### Sparsity = 1 - |R|/|i|*|U|
+- R = Rating
+- I = Items
+- U = Users
 
+# Cold start 
+- How to recommend a new video for users
+- what video to recommend to new users
+
+# Solutions 
+- Suggest or ask users to rate vides
+- Default voting for videos
+- Use other techniques like content-based or demographic for the initial phase
+
+# technique
+> USer-based Nearest Neighbor
+- eg : finds a set of user or nearest neighbors who have liked smae items as user and rated video 'v'
+-    : Algorihms predicts
+-    : Performs for all items John has not seen and recommends
+
+<img src='https://miro.medium.com/max/607/0*oxYZH7BYScjHHGeQ.png'>
+- a,b = Users
+- r(a,p) = Rating of user a for item p 
+- P = set of item. Rated by both users a and b
+
+<img src='https://miro.medium.com/max/700/0*R_f6Kd-xjbZ1Vn9C.png'>
+
+<img src='https://miro.medium.com/max/577/0*B7WsiPjWBAalw8Gd.png'>
+
+
+- Cons : coputational expansiceness O 
+- Performans can increase by applying the methodology of dimensionality reduction But quality of the recommendation can reduce
