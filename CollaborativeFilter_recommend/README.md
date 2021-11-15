@@ -75,9 +75,9 @@
 -    : Performs for all items John has not seen and recommends
 
 <img src='https://miro.medium.com/max/607/0*oxYZH7BYScjHHGeQ.png'>
-- a,b = Users
-- r(a,p) = Rating of user a for item p 
-- P = set of item. Rated by both users a and b
+- a,b = Users,
+- r(a,p) = Rating of user a for item p,  
+- P = set of item. Rated by both users a and b,
 
 <img src='https://miro.medium.com/max/700/0*R_f6Kd-xjbZ1Vn9C.png'>
 
@@ -86,3 +86,18 @@
 
 - Cons : coputational expansiceness O 
 - Performans can increase by applying the methodology of dimensionality reduction But quality of the recommendation can reduce
+
+# Item based Neareset Neighbor
+<img src='https://miro.medium.com/max/700/0*0XhX_-V0b3yQ-Due.png'>
+<img src='https://miro.medium.com/max/700/0*ljZYLDCME01Q-Y-f.png'>
+- look for videos that are similar to videos5, recommendation is similar to video4 
+
+# Role of Cosine Similarity in building Recommenders
+- We can calculate the cosine of an angle by measuring between any two vectors in multidimensional space
+<img src='https://miro.medium.com/max/700/0*wmRdOpJ0JglMy2zx'>
+
+# General BaseLine
+- bu, i = u + bu + bi
+bu, bi : users and iems baseline predictors
+
+
